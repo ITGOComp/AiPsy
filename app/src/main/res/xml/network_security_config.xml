@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- GigaChat использует сертификат Сбера. Разрешаем пользовательские CA для этих хостов. -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">sberbank.ru</domain>
+        <domain includeSubdomains="true">devices.sberbank.ru</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

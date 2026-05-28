@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тёмная тема — переопределяем только адаптивные цвета -->
+    <color name="chat_bg">#13142A</color>
+    <color name="surface">#1E2040</color>
+    <color name="input_bar_bg">#1E2040</color>
+    <color name="input_field_bg">#161830</color>
+    <color name="input_field_stroke">#35385E</color>
+    <color name="divider">#2C2F55</color>
+    <color name="bubble_bot">#252850</color>
+    <color name="text_primary">#E8EAFF</color>
+    <color name="text_secondary">#9FA8DA</color>
+    <color name="warning_bg">#2A1A00</color>
+    <color name="warning_text">#FFB74D</color>
+</resources>

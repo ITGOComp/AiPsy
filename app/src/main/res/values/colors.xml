@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Фиолетовая палитра (не меняется между темами) -->
+    <color name="primary">#5C6BC0</color>
+    <color name="primary_dark">#3949AB</color>
+    <color name="primary_light">#9FA8DA</color>
+    <color name="primary_extra_light">#E8EAF6</color>
+    <color name="bubble_user_start">#5C6BC0</color>
+    <color name="bubble_user_end">#7986CB</color>
+    <color name="text_on_bubble">#FFFFFF</color>
+    <color name="online_green">#4CAF50</color>
+
+    <!-- Светлая тема (переопределяются в values-night) -->
+    <color name="chat_bg">#F0F2FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="input_bar_bg">#FFFFFF</color>
+    <color name="input_field_bg">#F3F4FB</color>
+    <color name="input_field_stroke">#DDE0F0</color>
+    <color name="divider">#E4E6F5</color>
+    <color name="bubble_bot">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#8A8FA8</color>
+    <color name="warning_bg">#FFF3E0</color>
+    <color name="warning_text">#E65100</color>
+</resources>

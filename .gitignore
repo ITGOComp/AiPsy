@@ -1,0 +1,35 @@
+# ─── Секреты (НЕ публиковать!) ───────────────────────────────
+app/src/main/java/com/example/aipsy/Secrets.java
+*.keystore
+*.jks
+keystore.properties
+secrets.properties
+
+# ─── Android / Gradle ────────────────────────────────────────
+*.iml
+.gradle/
+/local.properties
+local.properties
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ─── Android Studio / IDE ────────────────────────────────────
+.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# ─── Прочее ──────────────────────────────────────────────────
+.DS_Store
+*.log
+/.claude/
